@@ -25,6 +25,7 @@ html,
 body {
     margin: 0;
     background-color: #445;
+    touch-action: manipulation;
 }
 
 .board-wrapper {

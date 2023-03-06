@@ -13,12 +13,12 @@ function init() {
     gameBoard = document.querySelector('#game-board');
 
     if (window.innerWidth > window.innerHeight) {
-        gameBoard.style.width = '90vh'
-        gameBoard.style.height = '90vh'
+        gameBoard.style.width = '95vh'
+        gameBoard.style.height = '95vh'
     }
     if (window.innerWidth < window.innerHeight) {
-        gameBoard.style.width = '90vw'
-        gameBoard.style.height = '90vw'
+        gameBoard.style.width = '95vw'
+        gameBoard.style.height = '95vw'
     }
 
     let stepRatio = document.querySelector('.block').clientWidth;
