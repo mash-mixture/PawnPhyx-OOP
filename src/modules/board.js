@@ -76,6 +76,10 @@ class Board {
     syncSize() {
 
     }
+
+    get defaultPos() {
+        return this.#defaultPositions();
+    }
 }
 
 
