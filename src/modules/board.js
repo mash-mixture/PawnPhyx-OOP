@@ -7,8 +7,10 @@ class Board {
         this.height = props.height;
         this.stepsratio = props.stepRatio;
         this.homeStops = props.homeStops;
+        console.log(Board.colorCodes)
     }
 
+    //  static 
     static colorCodes = {
         red: '#f1786b',
         blue: '#41b3e2',
@@ -21,7 +23,7 @@ class Board {
     #defaultPositions() {
         return {
             red: [
-                { x: this.width - (this.homeStops / 2), y: this.height - (this.height - (this.homeStops / 2.5)) },
+                { x: this.width - (this.homeStops / 2 + 5), y: this.height - (this.height - (this.homeStops / 2.2)) },
                 { x: this.width - (this.homeStops + (this.homeStops / 2)), y: this.height - (this.height - (this.homeStops / 2.5)) },
                 { x: this.width - (this.homeStops / 2), y: this.height - (this.height - (this.homeStops + (this.homeStops / 2))) },
                 { x: this.width - (this.homeStops + (this.homeStops / 2)), y: this.height - (this.height - (this.homeStops + (this.homeStops / 2))) },
