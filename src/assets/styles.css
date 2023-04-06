@@ -248,6 +248,7 @@ body {
 
 .row-lg:first-child .player-start:first-child {
     padding: 0 0.5rem 0.5rem 0;
+    /* background: url(../../assets/new-pass.png); */
 }
 
 .row-lg:first-child .player-start:last-child {

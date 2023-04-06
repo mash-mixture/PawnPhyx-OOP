@@ -24,9 +24,9 @@ class Board {
         return {
             red: [
                 { x: this.width - (this.homeStops / 2 + 5), y: this.height - (this.height - (this.homeStops / 2.2)) },
-                { x: this.width - (this.homeStops + (this.homeStops / 2)), y: this.height - (this.height - (this.homeStops / 2.5)) },
-                { x: this.width - (this.homeStops / 2), y: this.height - (this.height - (this.homeStops + (this.homeStops / 2))) },
-                { x: this.width - (this.homeStops + (this.homeStops / 2)), y: this.height - (this.height - (this.homeStops + (this.homeStops / 2))) },
+                { x: this.width - (this.homeStops + (this.homeStops / 2 + 5)), y: this.height - (this.height - (this.homeStops / 2.2)) },
+                { x: this.width - (this.homeStops / 2 + 5), y: this.height - (this.height - (this.homeStops + (this.homeStops / 2.0))) },
+                { x: this.width - (this.homeStops + (this.homeStops / 2 + 5)), y: this.height - (this.height - (this.homeStops + (this.homeStops / 2))) },
             ],
             blue: [
                 { x: this.homeStops + (this.homeStops / 2), y: this.height - (this.height - (this.homeStops / 2.5)) },
